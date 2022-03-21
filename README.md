@@ -13,9 +13,9 @@
                     </div>
                     <ul class="list-unstyled mb-4">
                         <li class="mb-3"><a href="#!"><i class="far fa-envelope display-25 me-3 text-secondary"></i>Võ Thanh Tú - 20520839</a></li>
-                        <li class="mb-3"><a href="#!"><i class="fas fa-mobile-alt display-25 me-3 text-secondary"></i>Phạm Ngọc Nguyên - 20520661</a></li>
-                        <li><a href="#!"><i class="fas fa-map-marker-alt display-25 me-3 text-secondary"></i>Hoàng Thị Hòa - 20521330</a></li>
-                        <li><a href="#!"><i class="fas fa-map-marker-alt display-25 me-3 text-secondary"></i>Tăng Phạm Hoàng Hiệp - 20520895</a></li>
+                        <li class="mb-3"></i>Phạm Ngọc Nguyên - 20520661</li>
+                        <li></i>Hoàng Thị Hòa - 20521330</li>
+                        <li></i>Tăng Phạm Hoàng Hiệp - 20520895</li>
                     </ul>
                     <ul class="social-icon-style2 ps-0">
                     </ul>
