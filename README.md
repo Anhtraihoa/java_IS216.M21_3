@@ -5,17 +5,17 @@
     <div class="row justify-content-center">
         <div class="col-md-7 col-lg-4 mb-5 mb-lg-0 wow fadeIn">
             <div class="card border-0 shadow">
-                <img src="https://lh3.googleusercontent.com/oCgTJ5Gp4fQ6teWC64USV-p2HsogVAbHSTcmCqTcWtTqVbVWzaaFt9f8l9Jzuq6yfSp9lkqfDq7bLtxM-v1bL_vFCKQjKjKVTC3AbSDgvAbuwIVklfJ9dQgh9_3rX8YAgNf8Aq3p_Tuj6Ux2blvmIhiq2--ByUkRNpRQ-C3zwn5aia6EUxslIqa4QnAT-S0WKcLVihlFJ1RCNIayznrpUIF8sH9VQY57_oUKfXtXh4X-XNwz_4VIVPS5dcsfa9odqzROxt3-dX7YmpCCQJutfY7JQgboKE7JCRQI-8p6JNMP5CVyn3sdUwd6w4zoEnRMnOq6ypInU8MlIuCh6A9Q6-RSTxj6d7GrIwaJJXE3_x7LZa52qcioVNGubeG7h_QpzQE8xYWjSWiZgk9fEqqH35ls0tkuIltPNqE5PMsUIEL6q-_sHFFF1xjT3eVjfj6ZWVL-Qsxv9SNET7oj1DLvaQB7hxhLefIL6m1cucMdPqDyNnNL-8o7yeiccJKN_IbPHggKQe-W1fprpJ2CWYfzFne2XdNoR5lXpQ2CSGsPueTXQso0JOHgB4XszZ_SAnAudg7LYTqdlUyojkQOTopQ6oT3aBjxMqG0Vts2Cz6Oz9TYBK-uQ-2RXBgZzm2gzDNeXykmXlN929mv4x2TK5Ktt19C8Kb95IVBt8p-cYfRC6aYh0AhZEO62mo12Sag6fk3J6vVMPaYBnK0Y1uEutJwi9W1xUx3TF8bZRslEoC7Vu6XlMvz1C7I6s3FJumB7hgwHgig11VflXql52jTr24hMSpzHr5Hf-wg6xrJufJO2bimDx-ps5jpG7sFIq50QpWktuVg6Pc6PG6RcI0JD1Ukeg7d5RDss7BYQ-pmSPbciNBI4lOFiCJRed1urADrvNfv8ewYCroXalTmB1YtiRqY8mFDIbvhkR2ckZbRuOWmiY0N80BrNPDaN9hT9j0VehlzH8ZPyMKbD1jnnKlMPUmdpCONqPKRs5dCYCAZvdEnn1eWLf5O_Q7EUfWCjvCE3fqnKaa2DgELKlUtURv6tN5wgXjl4si8=w1280-h722-no?authuser=0" width=40%  alt="Ava Group 3">
+                <img src="https://i.pinimg.com/564x/c4/a5/6c/c4a56c1803443f182f79a59d1da26cf0.jpg" width=20%  alt="Ava Group 3">
                 <div class="card-body p-1-9 p-xl-5">
                     <div class="mb-4">
                         <h3 class="h4 mb-0"> NHÓM 3: Practice Makes Perfect </h3>
-                        <span class="text-primary"> Gồm các thành viên </span>
+                        <span class="text-primary"> </span>
                     </div>
                     <ul class="list-unstyled mb-4">
-                        <li ></i>Võ Thanh Tú - 20520839</li>
-                        <li ></i>Phạm Ngọc Nguyên - 20520661</li>
-                        <li></i>Hoàng Thị Hòa - 20521330</li>
-                        <li></i>Tăng Phạm Hoàng Hiệp - 20520895</li>
+                        <li ></i> </li>
+                        <li ></i> </li>
+                        <li></i> </li>
+                        <li></i> </li>
                     </ul>
                     <ul class="social-icon-style2 ps-0">
                     </ul>
@@ -30,7 +30,7 @@
                     </div>
                     <p> TÊN ĐỒ ÁN: XÂY DỰNG HỆ THỐNG QUẢN LÝ CỬA HÀNG THỰC PHẨM SẠCH </p>
                     <p class="mb-0">Đây là giải pháp được chúng tôi xây dựng dành riêng cho doanh nghiệp quản lý chuỗi cửa
-hàng kinh doanh thực phẩm. Với việc ứng dụng phần mềm, công việc quản lý của bạn sẽ đơn giản mà hiệu quả hơn rất nhiều. Quản lý hàng hóa chi tiết theo nhóm khác nhau (Ví dụ nhóm thịt cá, nhóm rau củ, nhóm gia vị,nhóm nguyên liệu...)</p>
+hàng kinh doanh thực phẩm sạch. Với việc ứng dụng phần mềm, công việc quản lý của bạn sẽ đơn giản mà hiệu quả hơn rất nhiều. Quản lý hàng hóa chi tiết theo nhóm khác nhau (Ví dụ nhóm thịt cá, nhóm rau củ, nhóm gia vị,nhóm nguyên liệu...)</p>
                     <p class="mb-0"> CÁC CHỨC NĂNG ĐÃ LÀM</p>
                     <p class="mb-0"> ....................</p>
                     <p class="mb-0"> Giới thiệu công nghệ mới sử dụng trong đồ án (Nếu có)</p>
