@@ -1,0 +1,10 @@
+CREATE TABLE PHIEUXUATHANG(
+    Sophieu varchar2(20) not null,
+    Ngaytao date,
+    Soluong int,
+    Nguoitaophieu varchar2(20)
+);
+ALTER TABLE PHIEUXUATHANG
+    ADD CONSTRAINT PXH_PK PRIMARY KEY (Sophieu);
+ALTER TABLE PHIEUXUATHANG
+    ADD CONSTRAINT PXH_FK FOREIGN KEY (Nguoitaophieu) REFERENCES THUKHO (MaNV);

@@ -1,0 +1,163 @@
+--Tao bang
+CREATE TABLE NHANVIENBANHANG( 
+    MaNV varchar2(20) not null,
+    Hoten varchar2(50),
+    Tuoi int,
+    Sdt varchar2(15),
+    CMND varchar2(15),
+    Quequan varchar2(20),
+    Phucap float,
+    Luongcoban float,
+    Tienluong float
+);
+
+CREATE TABLE NGUOIQUANLY(
+    MaNV varchar2(20) not null,
+    Hoten varchar2(50),
+    Tuoi int,
+    Sdt varchar2(15),
+    CMND varchar2(15),
+    Quequan varchar2(20),
+    Phucap float,
+    Luongcoban float,
+    Tienluong float
+);
+
+CREATE TABLE THUKHO(
+    MaNV varchar2(20) not null,
+    Hoten varchar2(50),
+    Tuoi int,
+    Sdt varchar2(15),
+    CMND varchar2(15),
+    Quequan varchar2(20),
+    Phucap float,
+    Luongcoban float,
+    Tienluong float
+);
+
+CREATE TABLE KHACHHANG(
+    MaKH varchar2(20) not null,
+    TenKH varchar2(50),
+    CMND varchar2(15),
+    Diachi varchar2(20),
+    Sdt varchar2(15)
+);
+
+CREATE TABLE PHIEUNHAPHANG(
+    Sophieu varchar2(20) not null,
+    Ngaytao date,
+    Soluong int,
+    Nhacungcap varchar2(20),
+    Nguoitaophieu varchar2(20)
+);
+
+CREATE TABLE CHITIETNHAPHANG(
+    Mahangnhap varchar2(20) not null,
+    Sophieunhap varchar2(20),
+    Soluong int,
+    Dongia float
+);
+
+CREATE TABLE HANGHOA(
+    Mahang varchar2(20) not null,
+    Tenhang varchar2(20),
+    DVT varchar2(10),
+    Tinhtrang varchar2(20),
+    NSX date,
+    HSD date,
+    Mahangnhap varchar2(20),
+    Gia float
+);
+
+CREATE TABLE HOADON(
+    SoHD varchar2(20) not null,
+    NgayHD date,
+    MaKH varchar2(20),
+    MaNV varchar2(20),
+    Trigia float
+);
+
+CREATE TABLE CTHD(
+    SoHD varchar2(20) not null,
+    MaSP varchar(20) not null,
+    Soluong int
+);
+
+CREATE TABLE PHIEUXUATHANG(
+    Sophieu varchar2(20) not null,
+    Ngaytao date,
+    Soluong int,
+    Nguoitaophieu varchar2(20)
+);
+
+CREATE TABLE CHITIETXUATHANG(
+    Maxuathang varchar2(20) not null,
+    Sophieuxuat varchar2(20),
+    Soluong int
+);
+
+CREATE TABLE PHIEUTHONGKE(
+    Sophieu varchar2(20) not null,
+    NgayTK date,
+    Doanhthu float,
+    Thu float,
+    Chi float,
+    Nguoitaophieu varchar2(20)
+);
+
+CREATE TABLE PHIEUKIEMKEHANGHOA(
+    Sophieu varchar2(20) not null,
+    NgayTK date,
+    Soluong int,
+    Nguoitaophieu varchar2(20)
+);
+
+--Khoa chinh
+ALTER TABLE NHANVIENBANHANG 
+    ADD CONSTRAINT NVBH_PK PRIMARY KEY (MaNV);
+ALTER TABLE NGUOIQUANLY 
+    ADD CONSTRAINT NQL_PK PRIMARY KEY (MaNV);
+ALTER TABLE THUKHO
+    ADD CONSTRAINT TK_PK PRIMARY KEY (MaNV);
+ALTER TABLE KHACHHANG
+    ADD CONSTRAINT KH_PK PRIMARY KEY (MaKH);
+ALTER TABLE HANGHOA
+    ADD CONSTRAINT HH_PK PRIMARY KEY (Mahang);
+ALTER TABLE HOADON
+    ADD CONSTRAINT HD_PK PRIMARY KEY (SoHD);
+ALTER TABLE CHITIETNHAPHANG
+    ADD CONSTRAINT CTNH_PK PRIMARY KEY (Mahangnhap);
+ALTER TABLE PHIEUNHAPHANG
+    ADD CONSTRAINT PNH_PK PRIMARY KEY (Sophieu);
+ALTER TABLE CHITIETXUATHANG
+    ADD CONSTRAINT CTXH_PK PRIMARY KEY (Maxuathang);
+ALTER TABLE PHIEUXUATHANG
+    ADD CONSTRAINT PXH_PK PRIMARY KEY (Sophieu);
+ALTER TABLE PHIEUTHONGKE
+    ADD CONSTRAINT PTK_PK PRIMARY KEY (Sophieu);
+ALTER TABLE PHIEUKIEMKEHANGHOA
+    ADD CONSTRAINT PKKHH_PK PRIMARY KEY (Sophieu);
+    
+--Khoa ngoai
+ALTER TABLE HANGHOA
+    ADD CONSTRAINT HH_FK FOREIGN KEY (Mahangnhap) REFERENCES CHITIETNHAPHANG (Mahangnhap);
+ALTER TABLE HOADON
+    ADD CONSTRAINT HD_FK01 FOREIGN KEY (MaKH) REFERENCES KHACHHANG (MaKH);
+ALTER TABLE HOADON    
+    ADD CONSTRAINT HD_FK02 FOREIGN KEY (MaNV) REFERENCES NHANVIENBANHANG (MaNV);
+ALTER TABLE CTHD
+    ADD CONSTRAINT CTHD_FK01 FOREIGN KEY (SoHD) REFERENCES HOADON (SoHD);
+ALTER TABLE CTHD
+    ADD CONSTRAINT CTHD_FK02 FOREIGN KEY (MaSP) REFERENCES HANGHOA (Mahang);
+ALTER TABLE CHITIETNHAPHANG 
+    ADD CONSTRAINT CTNH_FK FOREIGN KEY (Sophieunhap) REFERENCES PHIEUNHAPHANG (Sophieu);
+ALTER TABLE PHIEUNHAPHANG
+    ADD CONSTRAINT PNH_FK FOREIGN KEY (Nguoitaophieu) REFERENCES THUKHO (MaNV);
+ALTER TABLE CHITIETXUATHANG
+    ADD CONSTRAINT CTXH_FK FOREIGN KEY (Sophieuxuat) REFERENCES PHIEUXUATHANG (Sophieu);
+ALTER TABLE PHIEUXUATHANG
+    ADD CONSTRAINT PXH_FK FOREIGN KEY (Nguoitaophieu) REFERENCES THUKHO (MaNV);
+ALTER TABLE PHIEUTHONGKE
+    ADD CONSTRAINT PTK_FK FOREIGN KEY (Nguoitaophieu) REFERENCES NGUOIQUANLY (MaNV);
+ALTER TABLE PHIEUKIEMKEHANGHOA
+    ADD CONSTRAINT PKKHH_FK FOREIGN KEY (Nguoitaophieu) REFERENCES THUKHO (MaNV);
