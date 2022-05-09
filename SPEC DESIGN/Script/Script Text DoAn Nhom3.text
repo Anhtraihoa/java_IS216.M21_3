@@ -6,9 +6,9 @@ CREATE TABLE NHANVIENBANHANG(
     Sdt varchar2(15),
     CMND varchar2(15),
     Quequan varchar2(20),
-    Phucap float,
-    Luongcoban float,
-    Tienluong float
+    Phucap double,
+    Luongcoban double,
+    Tienluong double
 );
 
 CREATE TABLE NGUOIQUANLY(
@@ -18,9 +18,9 @@ CREATE TABLE NGUOIQUANLY(
     Sdt varchar2(15),
     CMND varchar2(15),
     Quequan varchar2(20),
-    Phucap float,
-    Luongcoban float,
-    Tienluong float
+    Phucap double,
+    Luongcoban double,
+    Tienluong double
 );
 
 CREATE TABLE THUKHO(
@@ -30,9 +30,9 @@ CREATE TABLE THUKHO(
     Sdt varchar2(15),
     CMND varchar2(15),
     Quequan varchar2(20),
-    Phucap float,
-    Luongcoban float,
-    Tienluong float
+    Phucap double,
+    Luongcoban double,
+    Tienluong double
 );
 
 CREATE TABLE KHACHHANG(
@@ -55,7 +55,7 @@ CREATE TABLE CHITIETNHAPHANG(
     Mahangnhap varchar2(20) not null,
     Sophieunhap varchar2(20),
     Soluong int,
-    Dongia float
+    Dongia double
 );
 
 CREATE TABLE HANGHOA(
@@ -66,7 +66,7 @@ CREATE TABLE HANGHOA(
     NSX date,
     HSD date,
     Mahangnhap varchar2(20),
-    Gia float
+    Gia double
 );
 
 CREATE TABLE HOADON(
@@ -74,7 +74,7 @@ CREATE TABLE HOADON(
     NgayHD date,
     MaKH varchar2(20),
     MaNV varchar2(20),
-    Trigia float
+    Trigia double
 );
 
 CREATE TABLE CTHD(
@@ -99,9 +99,9 @@ CREATE TABLE CHITIETXUATHANG(
 CREATE TABLE PHIEUTHONGKE(
     Sophieu varchar2(20) not null,
     NgayTK date,
-    Doanhthu float,
-    Thu float,
-    Chi float,
+    Doanhthu double,
+    Thu double,
+    Chi double,
     Nguoitaophieu varchar2(20)
 );
 
