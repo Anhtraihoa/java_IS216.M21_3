@@ -1,13 +1,14 @@
 CREATE TABLE NGUOIQUANLY(
-    MaNV varchar2(20) not null,
-    Hoten varchar2(50),
-    Tuoi int,
-    Sdt varchar2(15),
+    MaNQL varchar2(20) not null,
+    TENNQL varchar2(50),
+    SDT varchar2(15),
     CMND varchar2(15),
-    Quequan varchar2(20),
-    Phucap double,
-    Luongcoban double,
-    Tienluong double
+    PHUCAP NUMBER(11,2), 
+    LUONGCOBAN NUMBER(11,2), 
+    TIENLUONG NUMBER(11,2),
+    MATKHAU varchar2(25)
 );
 ALTER TABLE NGUOIQUANLY 
-    ADD CONSTRAINT NQL_PK PRIMARY KEY (MaNV);
+    ADD CONSTRAINT NQL_PK PRIMARY KEY (MaNQL);
+ALTER TABLE NGUOIQUANLY
+    ADD CONSTRAINT QL_FK01 FOREIGN KEY (MATKHAU) REFERENCES DANGNHAP (MATKHAU);

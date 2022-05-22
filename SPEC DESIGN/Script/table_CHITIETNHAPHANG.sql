@@ -1,9 +1,0 @@
-CREATE TABLE CHITIETNHAPHANG(
-    Mahangnhap varchar2(20) not null,
-    Sophieunhap varchar2(20),
-    Soluong int,
-    Dongia float
-);
-ALTER TABLE CHITIETNHAPHANG ADD CONSTRAINT CTNH_PK PRIMARY KEY (Mahangnhap);
-ALTER TABLE CHITIETNHAPHANG ADD CONSTRAINT CTNH_FK 
-FOREIGN KEY (Sophieunhap) REFERENCES PHIEUNHAPHANG (Sophieu);

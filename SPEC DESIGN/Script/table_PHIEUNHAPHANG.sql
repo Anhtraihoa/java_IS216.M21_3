@@ -1,11 +1,12 @@
 CREATE TABLE PHIEUNHAPHANG(
-    Sophieu varchar2(20) not null,
-    Ngaytao date,
-    Soluong int,
-    Nhacungcap varchar2(20),
-    Nguoitaophieu varchar2(20)
+    MAPHIEUNHAP varchar2(20) not null,
+    NGAYTAO date,
+    SOLUONG int,
+    NGUOITAO varchar2(20),
+    TONGTIENNHAPHANG varchar2(20),
+    MANV varchar2(25)
 );
 ALTER TABLE PHIEUNHAPHANG
-    ADD CONSTRAINT PNH_PK PRIMARY KEY (Sophieu);
+    ADD CONSTRAINT MPN_PK PRIMARY KEY (MAPHIEUNHAP);
 ALTER TABLE PHIEUNHAPHANG
-    ADD CONSTRAINT PNH_FK FOREIGN KEY (Nguoitaophieu) REFERENCES THUKHO (MaNV);
+    ADD CONSTRAINT PNH_FK FOREIGN KEY (NGUOITAO) REFERENCES NHANVIEN (MaNV);
