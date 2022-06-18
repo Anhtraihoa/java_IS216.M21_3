@@ -20,16 +20,16 @@
     <li>
       <a href="#thanhvien">Danh sách thành viên</a>
     </li>
-    <li>
-      <a href="#chucnang">Các chức năng</a>
-    </li>
     <li><a href="#yeucau">Yêu cầu hệ thống</a></li>
+    <li><a href="#thuvien">Thư viện sử dụng</a></li>
+    <li>
+      <a href="#chucnang">Các chức năng của phần mềm</a>
+    </li>
+    <li><a href="#bonus">Chức năng bonus</a></li>
     <li>
       <a href="#caidat">Cài đặt và sử dụng</a>
-      <ul><a href="#setup">Setup môi trường</a></ul>
-      <ul><a href="#khoidong">Khởi động dự án </a></ul>
     </li>
-    <li><a href="#thamkhao">Tài liệu tham khảo</a></li>
+    <li><a href="#tlthamkhao">Tài liệu tham khảo</a></li>
   </ol>
 </details>
 
@@ -49,4 +49,28 @@ Phần mềm phải đảm bảo được các mục tiêu:
 | 3  | Tăng Phạm Hoàng Hiệp| 20520895 |[Hoàng Hiệp](https://www.facebook.com/profile.php?id=100011017901120) |0929011726 |...                    |     20       |
 | 4  | Hoàng Thị Hoà       | 20521330 |[Hoàng Hiền Hoà](https://www.facebook.com/hienhoa.hoang.946)          |0982938583 |Thiết kế cơ sở dữ liệu |     20       |
 
+# <h2 id="yeucau">Yêu cầu hệ thống:
+- Phần mềm:
+  + Apache Netbeans IDE 13
+  + Oracle SQL Developer 21.4.2
+# <h2 id="thuvien">Thư viện sử dụng:
+-
+-
+-
+-
+-
+-
+-
+-
+-
 
+# <h2 id="chucnang">Các chức năng của phần mềm:</h2>
+
+# <h2 id="bonus">Chức năng Bonus</h2>
+   
+# <h2 id="caidat">Cài đặt phần mềm</h2>
+1. Tải và cài đặt Apache Netbeans IDE 13
+  - Link tải: https://netbeans.apache.org/download/nb13/nb13.html
+2. Tải và cài đặt Oracle SQL Developer 21.4.2
+  
+# <h2 id="tlthamkhao">Tài liệu tham khảo</h2> 
