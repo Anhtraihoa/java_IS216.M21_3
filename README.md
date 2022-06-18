@@ -27,7 +27,7 @@
     </li>
     <li><a href="#bonus">Chức năng bonus</a></li>
     <li>
-      <a href="#caidat">Cài đặt và sử dụng</a>
+      <a href="#caidat">Cài đặt phần mềm</a>
     </li>
     <li><a href="#tlthamkhao">Tài liệu tham khảo</a></li>
   </ol>
