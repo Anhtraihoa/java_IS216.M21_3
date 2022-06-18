@@ -64,7 +64,13 @@ Phần mềm phải đảm bảo được các mục tiêu:
 -
 
 # <h2 id="chucnang">Các chức năng của phần mềm:</h2>
-
+- Đăng nhập
+- Đổi mật khẩu
+- Thêm, xoá, sửa khách hàng
+- Thêm nhà cung cấp
+- Thêm, xoá, tìm kiếm khách hàng
+- Thêm phiếu nhập hàng
+- Xuất file report
 # <h2 id="bonus">Chức năng Bonus</h2>
    
 # <h2 id="caidat">Cài đặt phần mềm</h2>
