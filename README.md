@@ -50,9 +50,8 @@ Phần mềm phải đảm bảo được các mục tiêu:
 | 4  | Hoàng Thị Hoà       | 20521330 |[Hoàng Hiền Hoà](https://www.facebook.com/hienhoa.hoang.946)          |0982938583 |Thiết kế cơ sở dữ liệu |     20       |
 
 # <h2 id="yeucau">Yêu cầu hệ thống:
-- Phần mềm:
-  + Apache Netbeans IDE 13
-  + Oracle SQL Developer 21.4.2
+- Apache Netbeans IDE 13
+- Oracle SQL Developer 21.4.2
 # <h2 id="thuvien">Thư viện sử dụng:
 -
 -
