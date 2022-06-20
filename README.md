@@ -53,10 +53,10 @@ Phần mềm phải đảm bảo được các mục tiêu:
 - Apache Netbeans IDE 13
 - Oracle SQL Developer 21.4.2
 # <h2 id="thuvien">Thư viện sử dụng:
--
--
--
--
+- jcalendar-1.3.3
+- jcommon-1.0.23
+- jfreechart
+- poi-5.0.0
 -
 -
 -
