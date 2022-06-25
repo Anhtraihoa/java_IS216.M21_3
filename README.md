@@ -42,12 +42,12 @@ Phần mềm phải đảm bảo được các mục tiêu:
   
 ## <h2 id="dsthanhvien">Thông tin chi tiết các thành viên</h2>
  
-| STT| Họ và tên           | MSSV     | Facebook                                                             |   SĐT     |        Nhiệm vụ           |  Đánh giá %  |
+| STT| Họ và tên           | MSSV     | Facebook                                                             |   SĐT     |        Nhiệm vụ           | Hoàn thành % |
 |:--:|---------------------|----------|----------------------------------------------------------------------|-----------|---------------------------|--------------|
-| 1  | Võ Thanh Tú         | 20520839 |[Võ Thanh Tú](https://www.facebook.com/vothanhtu2956)                 |0332467642 |Trưởng nhóm, Dev           |     30       |
-| 2  | Phạm Ngọc Nguyên    | 20520661 |[Nguyên Phạm](https://www.facebook.com/phamnguyen5629)                |0968072146 |Tester, Dev                |     30       | 
-| 3  | Tăng Phạm Hoàng Hiệp| 20520895 |[Hoàng Hiệp](https://www.facebook.com/profile.php?id=100011017901120) |0929011726 |Dev                        |     20       |
-| 4  | Hoàng Thị Hoà       | 20521330 |[Hoàng Hiền Hoà](https://www.facebook.com/hienhoa.hoang.946)          |0982938583 |Thiết kế cơ sở dữ liệu, Dev|     20       |
+| 1  | Võ Thanh Tú         | 20520839 |[Võ Thanh Tú](https://www.facebook.com/vothanhtu2956)                 |0332467642 |Trưởng nhóm, Dev           |     100       |
+| 2  | Phạm Ngọc Nguyên    | 20520661 |[Nguyên Phạm](https://www.facebook.com/phamnguyen5629)                |0968072146 |Tester, Dev                |     100       | 
+| 3  | Tăng Phạm Hoàng Hiệp| 20520895 |[Hoàng Hiệp](https://www.facebook.com/profile.php?id=100011017901120) |0929011726 |Dev                        |     100       |
+| 4  | Hoàng Thị Hoà       | 20521330 |[Hoàng Hiền Hoà](https://www.facebook.com/hienhoa.hoang.946)          |0982938583 |Thiết kế cơ sở dữ liệu, Dev|     100       |
 
 # <h2 id="yeucau">Yêu cầu hệ thống:
 - Apache Netbeans IDE 13
